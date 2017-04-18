@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		420668CA1EA631920094E4FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 420668C91EA631920094E4FC /* main.m */; };
+		420668CD1EA631920094E4FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 420668CC1EA631920094E4FC /* AppDelegate.m */; };
+		420668D01EA631920094E4FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 420668CF1EA631920094E4FC /* ViewController.m */; };
+		420668D31EA631920094E4FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420668D11EA631920094E4FC /* Main.storyboard */; };
+		420668D61EA631920094E4FC /* YZBackgroundDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 420668D41EA631920094E4FC /* YZBackgroundDemo.xcdatamodeld */; };
+		420668D81EA631920094E4FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420668D71EA631920094E4FC /* Assets.xcassets */; };
+		420668DB1EA631920094E4FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420668D91EA631920094E4FC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		420668C51EA631920094E4FC /* YZBackgroundDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZBackgroundDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		420668C91EA631920094E4FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		420668CB1EA631920094E4FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		420668CC1EA631920094E4FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		420668CE1EA631920094E4FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		420668CF1EA631920094E4FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		420668D21EA631920094E4FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		420668D51EA631920094E4FC /* YZBackgroundDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YZBackgroundDemo.xcdatamodel; sourceTree = "<group>"; };
+		420668D71EA631920094E4FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		420668DA1EA631920094E4FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		420668DC1EA631920094E4FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		420668C21EA631920094E4FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		420668BC1EA631920094E4FC = {
+			isa = PBXGroup;
+			children = (
+				420668C71EA631920094E4FC /* YZBackgroundDemo */,
+				420668C61EA631920094E4FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		420668C61EA631920094E4FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				420668C51EA631920094E4FC /* YZBackgroundDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		420668C71EA631920094E4FC /* YZBackgroundDemo */ = {
+			isa = PBXGroup;
+			children = (
+				420668CB1EA631920094E4FC /* AppDelegate.h */,
+				420668CC1EA631920094E4FC /* AppDelegate.m */,
+				420668CE1EA631920094E4FC /* ViewController.h */,
+				420668CF1EA631920094E4FC /* ViewController.m */,
+				420668D11EA631920094E4FC /* Main.storyboard */,
+				420668D71EA631920094E4FC /* Assets.xcassets */,
+				420668D91EA631920094E4FC /* LaunchScreen.storyboard */,
+				420668DC1EA631920094E4FC /* Info.plist */,
+				420668D41EA631920094E4FC /* YZBackgroundDemo.xcdatamodeld */,
+				420668C81EA631920094E4FC /* Supporting Files */,
+			);
+			path = YZBackgroundDemo;
+			sourceTree = "<group>";
+		};
+		420668C81EA631920094E4FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				420668C91EA631920094E4FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		420668C41EA631920094E4FC /* YZBackgroundDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 420668DF1EA631920094E4FC /* Build configuration list for PBXNativeTarget "YZBackgroundDemo" */;
+			buildPhases = (
+				420668C11EA631920094E4FC /* Sources */,
+				420668C21EA631920094E4FC /* Frameworks */,
+				420668C31EA631920094E4FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZBackgroundDemo;
+			productName = YZBackgroundDemo;
+			productReference = 420668C51EA631920094E4FC /* YZBackgroundDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		420668BD1EA631920094E4FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhangliangwang;
+				TargetAttributes = {
+					420668C41EA631920094E4FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 420668C01EA631920094E4FC /* Build configuration list for PBXProject "YZBackgroundDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 420668BC1EA631920094E4FC;
+			productRefGroup = 420668C61EA631920094E4FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				420668C41EA631920094E4FC /* YZBackgroundDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		420668C31EA631920094E4FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420668DB1EA631920094E4FC /* LaunchScreen.storyboard in Resources */,
+				420668D81EA631920094E4FC /* Assets.xcassets in Resources */,
+				420668D31EA631920094E4FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		420668C11EA631920094E4FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420668D01EA631920094E4FC /* ViewController.m in Sources */,
+				420668D61EA631920094E4FC /* YZBackgroundDemo.xcdatamodeld in Sources */,
+				420668CD1EA631920094E4FC /* AppDelegate.m in Sources */,
+				420668CA1EA631920094E4FC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		420668D11EA631920094E4FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				420668D21EA631920094E4FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		420668D91EA631920094E4FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				420668DA1EA631920094E4FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		420668DD1EA631920094E4FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		420668DE1EA631920094E4FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		420668E01EA631920094E4FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YZBackgroundDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomtop.YZBackgroundDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		420668E11EA631920094E4FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YZBackgroundDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomtop.YZBackgroundDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		420668C01EA631920094E4FC /* Build configuration list for PBXProject "YZBackgroundDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420668DD1EA631920094E4FC /* Debug */,
+				420668DE1EA631920094E4FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		420668DF1EA631920094E4FC /* Build configuration list for PBXNativeTarget "YZBackgroundDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420668E01EA631920094E4FC /* Debug */,
+				420668E11EA631920094E4FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		420668D41EA631920094E4FC /* YZBackgroundDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				420668D51EA631920094E4FC /* YZBackgroundDemo.xcdatamodel */,
+			);
+			currentVersion = 420668D51EA631920094E4FC /* YZBackgroundDemo.xcdatamodel */;
+			path = YZBackgroundDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 420668BD1EA631920094E4FC /* Project object */;
+}

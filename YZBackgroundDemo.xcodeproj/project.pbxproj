@@ -14,6 +14,7 @@
 		420668D61EA631920094E4FC /* YZBackgroundDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 420668D41EA631920094E4FC /* YZBackgroundDemo.xcdatamodeld */; };
 		420668D81EA631920094E4FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420668D71EA631920094E4FC /* Assets.xcassets */; };
 		420668DB1EA631920094E4FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420668D91EA631920094E4FC /* LaunchScreen.storyboard */; };
+		420668E41EA633C90094E4FC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420668E31EA633C90094E4FC /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		420668D71EA631920094E4FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		420668DA1EA631920094E4FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		420668DC1EA631920094E4FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		420668E31EA633C90094E4FC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				420668E41EA633C90094E4FC /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +49,7 @@
 			children = (
 				420668C71EA631920094E4FC /* YZBackgroundDemo */,
 				420668C61EA631920094E4FC /* Products */,
+				420668E21EA633C90094E4FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +86,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		420668E21EA633C90094E4FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				420668E31EA633C90094E4FC /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -114,6 +126,11 @@
 					420668C41EA631920094E4FC = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
